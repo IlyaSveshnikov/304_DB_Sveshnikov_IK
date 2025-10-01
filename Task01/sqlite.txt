@@ -1,0 +1,2 @@
+Версия SQLite: 3.51.0
+Режимы вывода sqlite3: ascii, list
