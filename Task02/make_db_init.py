@@ -104,7 +104,7 @@ def generate_users(writer):
     \n""")
     with open(FILES["users"], encoding="utf-8") as f:
         for line in f:
-            row = line.strip().split("\t")
+            row = line.strip().split("|")
             if not row or len(row) < 6:
                 continue
             u_id, name, email, gender, reg_date, occupation = row
